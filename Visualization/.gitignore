@@ -1,7 +1,7 @@
 ### IntelliJ IDEA ###
 out/
 .idea
-myproject.iml
+Visualization.iml
 !**/src/main/**/out/
 !**/src/test/**/out/
 
