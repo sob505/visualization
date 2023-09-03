@@ -39,10 +39,17 @@ public class Visualization extends Application {
     private final List<Color> colors = findColors();
     private int colorIndex = 0;
 
+    /*
+        main method launches the Javafx application
+     */
     public static void main(String[] args) {
         launch(args);
     }
 
+    /*
+        start method must be overwritten. It sets up each of the GUI elements (circle, 4 sliders, and a button) and
+        the sliders' respective listeners. It also sets up the animation and stage.
+     */
     @Override
     public void start(Stage stage) {
         stage.setTitle("Visualization");
